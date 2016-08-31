@@ -1,0 +1,14 @@
+//
+//  ViewController.h
+//  一些动画效果
+//
+//  Created by XF on 16/8/30.
+//  Copyright © 2016年 XF. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
+@property(nonatomic,strong)UITableView * table;
+@end
+
